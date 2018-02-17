@@ -8,17 +8,22 @@ Features
 Init project:
 
 Install scrapy in Linux (Ubuntu):
+
     sudo pip install scrapy
 
 Install mysqlclient:
-    sudo apt-get install libmysqlclient-dev
-    sudo pip install mysqlclient
+
+    `sudo apt-get install libmysqlclient-dev`
+
+    `sudo pip install mysqlclient`
 
 Create database in Mysql:
-    CREATE DATABASE scrapy;
+
+    `CREATE DATABASE scrapy;`
 
 Create table `books` in mysql from scrapy.sql
 
 
 Run spider and store data in json and mysql:
-    scrapy crawl books -o books.json -s CLOSESPIDER_PAGECOUNT=5
+
+    `scrapy crawl books -o books.json -s CLOSESPIDER_PAGECOUNT=5`
